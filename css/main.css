@@ -78,3 +78,24 @@ h1{
         top: 150px;
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .game{
+        width: 80%;
+    }
+
+    .dino{
+        width: 15%;
+    }
+}

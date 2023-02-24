@@ -15,7 +15,7 @@ function jump(){
 
     setTimeout(function(){
         dino.classList.remove("jump")
-    },300)
+    },500)
 }
 
 let isAlive = setInterval (function(){
@@ -23,6 +23,6 @@ let isAlive = setInterval (function(){
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
     if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140){
-        alert("YEB QO'YDIZ AKASI!!")
+        alert("You lose!!")
     }
 }, 10)
